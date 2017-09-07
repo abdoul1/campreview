@@ -71,4 +71,8 @@ Create          /dogs/:id/comments        POST
 # Comment New/Create
 * Discuss Nested Routes
 * Add the Comment New and Create route
-* Add the new comment form
+* Add the new comment form# campreview
+
+# Style Show Page
+* Add side bar to show page
+* Display Comment nicely

@@ -31,6 +31,7 @@ app.get("/campgrounds", function (req,res) {
     
 });
 
+
 //CREATE  Add new campground to db
 app.post("/campgrounds", function (req,res) {
     // res.send("You hit the post route")
