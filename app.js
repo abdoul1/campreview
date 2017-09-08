@@ -31,7 +31,6 @@ app.get("/campgrounds", function (req,res) {
     
 });
 
-
 //CREATE  Add new campground to db
 app.post("/campgrounds", function (req,res) {
     // res.send("You hit the post route")
@@ -103,15 +102,10 @@ app.post("/campgrounds/:id/comment", function (req,res) {
             })
         }
     })
-   
-    //create new comment
-    //link comment to campground
-    //redirect to campground show page
-
 
 })
 
 app.listen(3000, function () {
-    console.log("App started!")
+    console.log("Camp App has started!")
 });
 
