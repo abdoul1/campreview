@@ -105,6 +105,8 @@ app.post("/campgrounds/:id/comment", function (req,res) {
 
 })
 
+
+
 app.listen(3000, function () {
     console.log("Camp App has started!")
 });
